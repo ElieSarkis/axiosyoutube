@@ -1,0 +1,19 @@
+.divCounterStyle {
+  position: absolute;
+  top: 50%;
+  left: 42%;
+  margin-top: -50px;
+  margin-left: -50px;
+}
+
+@media (max-width: 550px) {
+  .divCounterStyle {
+    left: 32%;
+  }
+}
+
+@media (max-width: 420px) {
+  .divCounterStyle {
+    left: 28%;
+  }
+}
